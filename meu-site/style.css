@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  text-align: center;
+}
+
+header {
+  background: url('header.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 80px 20px;
+  position: relative;
+}
+
+.btn {
+  background: #00ccff;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.servicos {
+  padding: 40px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #f4f4f4;
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+}
